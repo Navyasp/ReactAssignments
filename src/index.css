@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+ * {
+  box-sizing: border-box;
+}
+
+td {
+  padding: 5px 20px;
+  text-align: center
+}
+tbody{
+  list-style: none;
+	margin: 0;
+	padding: 0;
+}
+tbody tr:nth-child(even) {
+  background-color: #dddddd;
+}
+hr {
+  height: 5px;
+  color:#FF6600;
+	background-color:#FF6600;
+  border: none;
+}
+a {
+  color:#FF6600;
+  font-weight: bold;
+	cursor: pointer;
+
+}
+a.previousPage {
+	margin-left: 85%;
+}
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+header {
+	background-color : #FF6600;
+  padding: .3em;
+  color:white;
+  font-weight: bold;
+}
+.num, .points {
+  padding:20px;
+
+}
+.url,.time {
+  color: gray;
+  font-size: 9px;
+  margin: 0;
+  padding:0;
+}
+.list-item {
+  padding-top: 10px;
+}
+
+.author {
+  font-size: 9px;
+}
+
+
+td.a {
+  text-align: center;
+  width: 35px;
+  height: 20px;
+  padding: 5px ;
+	border: none;
+	outline: none;
+  cursor: pointer;
+
+}
+
+
+a {
+  color:#FF6600;
+  font-weight: bold;
+  cursor: pointer;
+}
